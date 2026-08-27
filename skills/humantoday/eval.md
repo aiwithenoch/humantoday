@@ -4,6 +4,12 @@ Use this after the rewrite. Answer each check with pass or fail. If any check fa
 
 For detect requests, make sure the response names each pattern found with a quoted line and a short fix, without rewriting the draft.
 
+## Goal loop
+
+1. Did the edit identify the reader, purpose, and voice signals worth protecting before changing the draft?
+2. Did every failed applicable check trigger another revision and evaluation pass?
+3. Did the loop stop only after the applicable checks passed, or clearly name an unresolved check after three safe passes?
+
 ## Editing principles
 
 1. Does the edit preserve the user's point without adding claims, examples, stats, quotes, or opinions?

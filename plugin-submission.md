@@ -27,4 +27,4 @@ The plugin edits drafts, detects named patterns without rewriting, and can gener
 
 ## Release notes
 
-HumanToday 1.0.0 is a rebranded fork with a new command, package metadata, artwork, documentation, and the original voice-preserving editing workflow.
+HumanToday 1.0.1 adds a bounded goal loop: define the writing goal, edit, evaluate against the checks, repair failures, and repeat before returning the draft.

@@ -87,11 +87,26 @@ Often-empty phrases: it's worth noting, it's important to note, at the end of th
 
 **Em dashes.** Do not use them as a default rhythm crutch. In short copy, use none. In longer drafts, 1-2 are fine if they clearly beat commas, periods, or parentheses. Remove clusters and decorative dashes.
 
+## Goal loop
+
+For edit requests, treat the work as a goal, not a one-shot rewrite:
+
+**Goal:** make the draft clearer and more human while preserving its meaning, evidence, structure, and recognizable voice.
+
+1. Read the full draft and identify the goal, audience, and 3-5 voice signals to protect.
+2. Make the minimum effective edit.
+3. Check the result against every applicable rule in `eval.md`.
+4. If a check fails, revise the draft and run the checks again. Keep looping until the applicable checks pass.
+5. Stop after three refinement passes only when no further safe improvement is available. If a check remains unresolved, say which one instead of pretending the goal was met.
+
+Keep the goal and check results internal. Return the full edited draft and a short **What changed** section only after the loop is complete.
+
+The goal loop applies to Edit mode. Detect mode is a deliberate single-pass report: name the patterns, quote the lines, suggest fixes, and stop without rewriting.
+
 ## Workflow
 
 1. Read the full draft before editing.
 2. Identify the core point and 3-5 voice signals to preserve, such as vocabulary, cadence, bluntness, humor, uncertainty, or digressions. Keep this note internal. If you cannot identify the core point, ask the user.
 3. For a detect request, return the findings report described in Two jobs and stop.
-4. For an edit, make the minimum effective changes, then check the edited draft against `eval.md` yourself.
-5. If any check fails, fix the draft and run the checks again.
-6. Output the full edited draft and a short **What changed** section.
+4. For an edit, run the goal loop above and check the edited draft against `eval.md` yourself.
+5. Output the full edited draft and a short **What changed** section after the loop completes.

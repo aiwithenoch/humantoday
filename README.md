@@ -8,6 +8,18 @@ HumanToday is a writing skill and plugin that cuts the machine-shaped habits whi
 
 **Give it the draft. Get back your voice.**
 
+## The goal loop
+
+Every edit has a finish line:
+
+1. Define what the reader should get from the draft and what makes the writer sound like themselves.
+2. Make the smallest useful revision.
+3. Check the result against [`eval.md`](skills/humantoday/eval.md).
+4. Fix failed checks and run the evaluation again.
+5. Return the finished draft only when the applicable checks pass, with a short `What changed` note.
+
+HumanToday runs up to three refinement passes when needed. If a safe edit still cannot satisfy a check, it says so instead of quietly shipping a worse draft.
+
 ## What HumanToday does
 
 HumanToday has three useful modes:
@@ -23,7 +35,7 @@ It does not turn every sentence into the same glossy, lifeless â€œprofessionalâ€
 Paste this into ChatGPT, Codex, Claude Code, or another compatible coding agent:
 
 ```text
-Install the /humantoday skill globally from https://github.com/aiwithenoch/humantoday
+Install the /humantoday skill globally from https://github.com/aiwithenoch/humantoday. For every edit, run the HumanToday goal loop: define the goal, revise, check eval.md, fix failures, and repeat until the applicable checks pass. Then return the full draft and What changed.
 ```
 
 Or install it with the skills CLI:
