@@ -1,0 +1,42 @@
+{
+  "name": "humantoday",
+  "version": "1.0.0",
+  "description": "Make AI-assisted writing sound human without flattening the writer's voice.",
+  "author": {
+    "name": "AiWithEnoch",
+    "url": "https://github.com/aiwithenoch"
+  },
+  "homepage": "https://github.com/aiwithenoch/humantoday",
+  "repository": "https://github.com/aiwithenoch/humantoday",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "editing",
+    "voice",
+    "human writing",
+    "AI editing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "HumanToday",
+    "shortDescription": "Make AI-assisted writing sound human",
+    "longDescription": "HumanToday edits AI-assisted writing without sanding off the person who wrote it. It removes 20+ recognizable patterns: binary contrasts, throat-clearing openers, fake insights, padded verbs, vague attribution, synonym cycling, dramatic fragments, and mic-drop endings. Use it to edit a draft, detect patterns without rewriting, or generate deliberately terrible AI copy as satire.",
+    "developerName": "AiWithEnoch",
+    "category": "Productivity",
+    "capabilities": [
+      "Edit",
+      "Detect",
+      "Preserve voice"
+    ],
+    "websiteURL": "https://github.com/aiwithenoch/humantoday",
+    "privacyPolicyURL": "https://github.com/aiwithenoch/humantoday/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/aiwithenoch/humantoday/blob/main/TERMS.md",
+    "defaultPrompt": [
+      "(text)",
+      "is this AI-sounding? (text)"
+    ],
+    "brandColor": "#F26A3D",
+    "composerIcon": "./assets/humantoday.png",
+    "logo": "./assets/humantoday.png"
+  }
+}

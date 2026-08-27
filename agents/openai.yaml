@@ -1,0 +1,4 @@
+interface:
+  display_name: "/humantoday"
+  short_description: "Make AI-assisted writing sound human without flattening your voice."
+  default_prompt: "Use $humantoday to sharpen this draft without flattening my voice."
